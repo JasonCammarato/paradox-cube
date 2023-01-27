@@ -1,0 +1,79 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="3eLV]2V-6`4(`O:knr39" x="129" y="-179"><statement name="HANDLER"><block type="OLED_init" id="?4D_}htcUOEa%*rEF?G4"><value name="width"><shadow type="math_number" id="Fv;isd4~*7![.yzG7-9O"><field name="NUM">128</field></shadow></value><value name="height"><shadow type="math_number" id="PMe)]`uyF#[F6BgXZRZ]"><field name="NUM">64</field></shadow></value><next><block type="device_show_leds" id="N-kBCFY,WK3?jGl|s[d("><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        # . # . #
+        `</field><next><block type="device_show_leds" id="F17+V?2z}Kd8*xD07eW8"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # # 
+        # . # . # 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="gQtTL/tHP(nS4Y(Ct0H%"><field name="LEDS">`
+        . . . . . 
+        . . # . # 
+        . # # # # 
+        # . # . . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="#F|i^.CBgMUm3Y%KTZBk"><field name="LEDS">`
+        . . . . # 
+        . . # . # 
+        . # # # . 
+        # . # . . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="dyrGcK_q/BQNQ9g#q.|]"><field name="LEDS">`
+        . . . # . 
+        . . # # . 
+        . # # # . 
+        # . # . . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="yyj4$p}@5%I6,?3rm6%A"><field name="LEDS">`
+        . . . . # 
+        . . # . # 
+        . # # # . 
+        # . # . . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id=";L#u^}9Tm-ZgA0Zl?W[o"><field name="LEDS">`
+        . . . # . 
+        . . # # . 
+        . # # # . 
+        # . # . . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id=".bj6#,xbVd1Qy:s*^wie"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="K]YlW?L|Tyg~PE9HkJmy"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="-,t`tG]`(OlW4,J?Yc*c"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . # . # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="OLED_writeStringNewLine" id="Yx_*$KEf}#6JkvLyo.)X"><value name="str"><shadow type="text" id="%8M|QzIw:0^f5*#k3.Y2"><field name="TEXT">If a Ship falls apart and you replace every piece is it the same ship still? Click "A" for yes, or "B" for no.</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="^Cj|~Dg@J%grgh,Wx8B+" x="584" y="-80"></block><block type="device_button_event" id="Tw/7.iR{@y|ejJ*Awswg" x="-370" y="2164"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="OLED_clear" id="4J:xG-}lw.r:cDQm]mcQ"><next><block type="OLED_newLine" id="vgKr*[c@xk^P(Jc~O+i}"><next><block type="device_show_leds" id="*4Ais]+}.$}6%9dBiAHP"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="playMelody" id="geuI]U~tFu=(1d)5OZxe"><value name="melody"><shadow type="melody_editor" id="W_2DG*vahsO@(#Y:`JlG"><field name="melody">"B - A - E - C C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="p5EtBy=TicfodFMZ{[H9"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">200</field></shadow></value><next><block type="OLED_writeStringNewLine" id="z)*m*eoIw;o@c:vS6lUm"><value name="str"><shadow type="text" id="Ir]qxKR,*x!jo3OJ5#H]"><field name="TEXT">It's NOT the same Ship. All parts have been replaced.</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="xR%d~q-ya=n2G;aO./t_" x="129" y="2289"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="playMelody" id="Our)_-0,/^mNW35Y{(68"><value name="melody"><shadow type="melody_editor" id="cWHyl^)l/D+20w{).(+N"><field name="melody">"G - F - E - F A "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="Kg`{E,7/8mOf*~{ME7F%"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">260</field></shadow></value><next><block type="device_show_leds" id="=Ji4{`(@aYPRJsbY^G-#"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="OLED_clear" id="VPEp*smJP5d-8u`@!gXu"><next><block type="OLED_newLine" id="eQ^age~irYz?|wU@UK:g"><next><block type="OLED_writeStringNewLine" id="hkDQqn}zQf(=MOeENcuF"><value name="str"><shadow type="text" id=";mv~@E{b,nXT[^J:m;,D"><field name="TEXT">It can be either way, depends on how you argue it.</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="QK,$Y|g@;i6hVOq2K{sa" x="-85" y="2355"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="OLED_clear" id="s8EQj(C^$[)M1r~zz(3v"><next><block type="OLED_newLine" id="PhPO7*z[,~uB2pdc1gMQ"><next><block type="device_show_leds" id="qH@Q{4q;n|vj$:Vp_4g-"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="playMelody" id="RF|:|ipD@WN_{bL^j`kG"><value name="melody"><shadow type="melody_editor" id="y.*.FTw~-?*:Qx1#q!-j"><field name="melody">"B - A - E - C C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="ig2nfBmK7TsK}L;pycXl"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">200</field></shadow></value><next><block type="OLED_writeStringNewLine" id="kjbr4?pw.`__~@8$~H.n"><value name="str"><shadow type="text" id="KDTfzprO+*plQ,LJD69%"><field name="TEXT">It IS the Same Ship those new parts with the old Ship became "Old parts" of the new ship it was not all replaced at once.</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
